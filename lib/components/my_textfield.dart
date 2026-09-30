@@ -18,7 +18,7 @@ class MyTextfield extends StatelessWidget {
     return TextField(
       controller: txtController,
       keyboardType: TextInputType.number,
-      inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+      //inputFormatters: [FilteringTextInputFormatter.digitsOnly],
       decoration: InputDecoration(
         hintText: myHint,
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(radius)),
