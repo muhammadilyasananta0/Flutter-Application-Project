@@ -29,7 +29,7 @@ class DetailProdukPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // FOTO PRODUK
+            // Foto Barang
             Container(
               width: double.infinity,
               height: 300,
@@ -45,7 +45,7 @@ class DetailProdukPage extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // NAMA DAN HARGA
+            // Nama Dan Harga
             Card(
               elevation: 3,
               shape: RoundedRectangleBorder(
@@ -83,7 +83,7 @@ class DetailProdukPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // RATING
+            // Buat Rating
             Card(
               elevation: 2,
               shape: RoundedRectangleBorder(
@@ -119,7 +119,7 @@ class DetailProdukPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // DESKRIPSI
+            // Buat Deskripsi
             Card(
               elevation: 2,
               shape: RoundedRectangleBorder(
@@ -157,7 +157,7 @@ class DetailProdukPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // TOKO
+            // Buat Nama Toko
             Card(
               elevation: 2,
               shape: RoundedRectangleBorder(

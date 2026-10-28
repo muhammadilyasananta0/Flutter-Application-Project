@@ -1,4 +1,4 @@
-import 'package:flutter_application_project/controller/confirm_registration_controller.dart';
+import 'package:flutter_application_project/components/controller/confirm_registration_controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 

@@ -7,10 +7,9 @@ class ListProdukController extends GetxController {
       namaProduk: "Samsung Galaxy A17 5G",
       harga: "3.799.000",
       image: "assets/images/download (1).jpg",
-      description:
-          "Samsung Galaxy A17 5G dengan desain modern dan performa yang baik.",
+      description: "Samsung Galaxy A17 5G dengan desain modern.",
       rating: 4.8,
-      reviews: 125,
+      reviews: 0,
       namaToko: "Samsung Official Store",
     ),
 
@@ -18,9 +17,9 @@ class ListProdukController extends GetxController {
       namaProduk: "Samsung Galaxy A26 5G",
       harga: "2.999.000",
       image: "assets/images/download (2).jpg",
-      description: "Samsung Galaxy A26 5G dengan layar berkualitas dan performa yang responsif.",
+      description: "Samsung Galaxy A26 5G dengan performa yang responsif.",
       rating: 4.7,
-      reviews: 98,
+      reviews: 0,
       namaToko: "Samsung Official Store",
     ),
 
@@ -28,9 +27,9 @@ class ListProdukController extends GetxController {
       namaProduk: "Samsung Galaxy A36 5G",
       harga: "4.499.000",
       image: "assets/images/download (3).jpg",
-      description: "Samsung Galaxy A36 5G dengan desain elegan dan dukungan jaringan 5G.",
+      description: "Samsung Galaxy A36 5G dengan desain elegan.",
       rating: 4.8,
-      reviews: 156,
+      reviews: 0,
       namaToko: "Samsung Official Store",
     ),
 
@@ -38,9 +37,9 @@ class ListProdukController extends GetxController {
       namaProduk: "Samsung Galaxy A56 5G",
       harga: "5.499.000",
       image: "assets/images/download (4).jpg",
-      description: "Samsung Galaxy A56 5G dengan performa tinggi dan kamera berkualitas.",
+      description: "Samsung Galaxy A56 5G dengan kamera berkualitas.",
       rating: 4.9,
-      reviews: 210,
+      reviews: 0,
       namaToko: "Samsung Official Store",
     ),
 
@@ -48,11 +47,10 @@ class ListProdukController extends GetxController {
       namaProduk: "Samsung Galaxy S25 FE",
       harga: "12.499.000",
       image: "assets/images/download.jpg",
-      description:
-          "Samsung Galaxy S25 FE dengan performa flagship dan desain premium.",
+      description: "Samsung Galaxy S25 FE dengan desain premium.",
       rating: 4.9,
-      reviews: 320,
+      reviews: 0,
       namaToko: "Samsung Official Store",
     ),
-  ];
+  ].obs;
 }

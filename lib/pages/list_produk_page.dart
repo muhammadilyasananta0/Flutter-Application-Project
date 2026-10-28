@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_project/controller/list_produk_controller.dart';
+import 'package:flutter_application_project/components/controller/list_produk_controller.dart';
 import 'package:flutter_application_project/routes.dart';
 import 'package:get/get.dart';
 
@@ -33,7 +33,7 @@ class ListProdukPage extends StatelessWidget {
           return Card(
             margin: const EdgeInsets.only(bottom: 15),
             elevation: 4,
-            shadowColor: Colors.blue.withOpacity(0.2),
+            shadowColor: Colors.blue.withValues(alpha: 0.2),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(18),
             ),
@@ -66,7 +66,6 @@ class ListProdukPage extends StatelessWidget {
 
                     const SizedBox(width: 15),
 
-                    // INFORMASI PRODUK
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
