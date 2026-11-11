@@ -1,9 +1,11 @@
+import 'package:flutter_application_project/loginapi_page.dart';
 import 'package:flutter_application_project/pages/confirm_registration_page.dart';
 import 'package:flutter_application_project/pages/list_produk_page.dart';
 import 'package:flutter_application_project/pages/registration_page.dart';
 import 'package:flutter_application_project/pages/detail_produk_page.dart';
 import 'package:flutter_application_project/pages/main_menu_page.dart';
 import 'package:flutter_application_project/pages/menu_drawer.dart';
+import 'package:flutter_application_project/pages/login_clone_fix.dart';
 import 'package:get/get.dart';
 
 class Routes {
@@ -15,6 +17,8 @@ class Routes {
   static const String detailProduk = "/detailProduk";
   static const String mainmenupage = "/mainmenupage";
   static const String menudrawer = "/menudrawer";
+  static const String loginclonefix = "/loginclonefix";
+  static const String loginapipage = "/loginapipage";
 
   // Dll.
 
@@ -25,5 +29,7 @@ class Routes {
     GetPage(name: detailProduk, page: () => DetailProdukPage()),
     GetPage(name: mainmenupage, page: () => MainMenuPage()),
     GetPage(name: menudrawer, page: () => MenuDrawer()),
+    GetPage(name: loginclonefix, page: () => LoginCloneFix()),
+    GetPage(name: loginapipage, page: () => LoginApiPage()),
   ];
 }

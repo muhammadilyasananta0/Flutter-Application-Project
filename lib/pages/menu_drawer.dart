@@ -18,7 +18,7 @@ class MenuDrawer extends StatelessWidget {
       () => Scaffold(
         // AppBar
         appBar: AppBar(
-          title: Text('Samsung Official Store'),
+          title: Text('DAFTAR TIM'),
           backgroundColor: const Color(0xFFFDF7FF),
           foregroundColor: const Color(0xFF29252D),
           elevation: 0,
